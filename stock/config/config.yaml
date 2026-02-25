@@ -1,0 +1,7 @@
+lark:
+  chat_id: "oc_56c26fbc3e5a1ac65e2ecb8cffb63c95"
+
+collectors:
+  etf_heatmap:
+    url: "https://52etf.site/"
+    output_path: "/tmp/52etf-share.png"

@@ -1,0 +1,14 @@
+# Copy this file to config.yaml and fill in your values
+# cp config.yaml.example config.yaml
+#
+# Lark app_id and app_secret: set via env vars (recommended)
+#   export LARK_APP_ID="your_app_id"
+#   export LARK_APP_SECRET="your_app_secret"
+
+lark:
+  chat_id: "your_chat_id"
+
+collectors:
+  etf_heatmap:
+    url: "https://52etf.site/"
+    output_path: "/tmp/52etf-share.png"
